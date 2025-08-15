@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   align-items: space-between;
+  position: fixed;
 
   height: 992px;
   width: 400px;
@@ -394,6 +395,8 @@
   display: flex;
   flex-direction: column;
   align-items: space-between;
+
+  margin-left: 380px;
 }
 
 .main-hub-selection {
@@ -534,6 +537,8 @@
   height: 150px;
 
   background-color: black;
+
+  border-bottom: 2px solid lightgray;
 }
 
 .profile-and-inputbox {
@@ -618,20 +623,11 @@
 .post-options {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 
-   background-color: brown;
+  padding-left: 120px;
 
   width: 80%;
-  height: 100%;
-}
-
-.post-button-options {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 20%;
   height: 100%;
 }
 
@@ -696,4 +692,144 @@
 
   width: 100%;
   height: 100%;
+}
+
+.setting-icon-size {
+  width: 40px;
+  height: 40px;
+}
+
+.setting-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+
+  background-image: url(./imgs/setting-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.smile-icon-size {
+  width: 40px;
+  height: 40px;
+}
+
+.smile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+
+  background-image: url(./imgs/smile-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.calendary-icon-size {
+  width: 40px;
+  height: 40px;
+}
+
+.calendary-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+
+  background-image: url(./imgs/calendary-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.post-button-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20%;
+  height: 100%;
+}
+
+.post-button-post{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+  color: black;
+
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bolder;
+
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 50px;
+
+  width: 80%;
+  height: 60px;
+}
+
+.post1-centralization{
+display: flex;
+justify-content: center;
+align-items:flex-start;
+
+background-color: black;
+
+width: 75vw;
+height: 80vh;
+}
+
+.post1-profile{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  width: 100%;
+  height:120px ;
+}
+
+.post1-profile-centralization{
+ display: flex;
+ justify-content: center;
+ align-items:center;
+
+ height: 100%;
+ width: 160px;
+}
+
+.post1-profile-img-size{
+  width: 70px;
+  height: 70px;
+}
+
+.post1-profile-img{
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-image: url(./imgs/rocket-img.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+border-radius: 50px;
+
+width: 100%;
+height: 100%;
 }

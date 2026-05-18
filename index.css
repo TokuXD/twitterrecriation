@@ -494,7 +494,7 @@
     justify-content: center;
 
     width: 100%;
-    height: 30%;
+    height: 25%;
 }
 
 .subs-container-display{
@@ -582,28 +582,6 @@
     height: 100%;
 }
 
-.subs-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: 100%;
-    height: 30%;
-}
-
-.subs-container-display{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    
-    border: 1px solid #fff;
-    border-radius: 20px;
-
-    width: 80%;
-    height: 100%;
-}
-
 .subs-title-container{
     display: flex;
     align-items: center;
@@ -650,4 +628,96 @@
     font-size: 15px;
 
     padding-left: 20px;
+}
+
+.subs-button-display{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+
+    width: 100%;
+    height: 20%;
+}
+
+.subs-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #00ccff;
+    border-radius: 18px;
+
+    padding: 20px;
+    margin-left: 20px;
+
+    height: 30px;
+
+    cursor: pointer;
+}
+
+.todays-news-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    width: 100%;
+    height: 50%;
+}
+
+.today-news-display{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    border-radius: 16px;
+    border: 1px solid #fff; 
+
+    width: 80%;
+    height: 100%;
+}
+
+.today-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 100%;
+    height: 20%;
+}
+
+.today-tittle p {
+    color: #fff;
+
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.today-news-img-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+}
+
+.today-news-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(imgs/twitter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
 }
